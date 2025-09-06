@@ -1,0 +1,9 @@
+--Creación del a base de datos de Sistemas de Información
+/*
+ESTA BASE SE ENCARGARA DE ALMACENAR LOS DATOS DE LOS USUARIOS QUE TENDRÁN PERMISO DE INGRESAR A LA APP
+*/
+CREATE TABLE user(
+    Id_User AUTO_INCREMENT NOT NULL,
+    Name_User VARCHAR(50) NOT NULL,
+    PRIMARY KEY(Id_User)
+);
